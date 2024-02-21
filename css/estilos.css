@@ -1,0 +1,30 @@
+/* Estilos para el contenedor principal */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Estilos para el contenedor del slideshow */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Se ajusta automáticamente al tamaño de las imágenes */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Estilos para las diapositivas */
+.mySlides {
+    position: relative;
+    width: 2%;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(131,58,180,1) 12%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   
+}
+
